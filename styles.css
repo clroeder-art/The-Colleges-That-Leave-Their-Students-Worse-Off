@@ -1,0 +1,180 @@
+body {
+    font-family: "Source Serif 4", Georgia, serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333333;
+    background-color: #fdfcf8;
+}
+
+h1 {
+    font-family: "Source Serif 4", Georgia, serif;
+    font-size: 44px;
+    line-height: 1.1;
+    color: #1a1a1a;
+}
+
+h2, h3 {
+    font-family: "Source Sans 3", Arial, sans-serif;
+    color: #1a1a1a;
+}
+
+a {
+    color: #336699;
+}
+
+.masthead {
+    background-color: white;
+    border-bottom: 1px solid #dddddd;
+    padding: 16px;
+    text-align: center;
+}
+
+.masthead h2 {
+    font-family: "Source Serif 4", Georgia, serif;
+    font-size: 22px;
+}
+
+.masthead .desk {
+    font-family: "Source Serif 4", Georgia, serif;
+    color: gray;
+    font-size: 16px;
+}
+
+.article {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 20px;
+}
+
+.section-tag {
+    font-family: "Source Sans 3", Arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #1a1a1a;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+
+.summary {
+    font-size: 20px;
+    line-height: 1.4;
+    color: #444444;
+    margin-top: 18px;
+    margin-bottom: 26px;
+}
+
+
+.byline {
+    font-family: "Source Sans 3", Arial, sans-serif;
+    font-size: 13px;
+    color: gray;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-bottom: 36px;
+}
+
+
+.byline strong {
+    color: #1a1a1a;
+}
+
+
+p {
+    margin-bottom: 22px;
+}
+
+
+.chart {
+    margin-top: 36px;
+    margin-bottom: 12px;
+}
+
+
+.caption {
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 14px;
+    margin-bottom: 36px;
+}
+
+.caption .caption-text {
+    font-family: "Source Sans 3", Arial, sans-serif;
+    font-size: 13px;
+    color: gray;
+    line-height: 1.5;
+    margin-bottom: 6px;
+}
+
+.caption .caption-text strong {
+    color: #1a1a1a;
+}
+
+.pull-quote {
+    font-family: "Source Serif 4", Georgia, serif;
+    font-size: 24px;
+    font-style: italic;
+    line-height: 1.35;
+    color: #1a1a1a;
+    border-left: 3px solid #1a1a1a;
+    padding-left: 24px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+.pull-quote .quote-source {
+    display: block;
+    font-family: "Source Sans 3", Arial, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    color: gray;
+    letter-spacing: 1px;
+    margin-top: 14px;
+}
+
+
+.footer {
+    border-top: 1px solid #cccccc;
+    padding-top: 26px;
+    margin-top: 50px;
+}
+
+.footer h3 {
+    font-family: "Source Sans 3", Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+.footer p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: gray;
+}
+
+
+@media (max-width: 600px) {
+    body {
+        font-size: 17px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .summary {
+        font-size: 17px;
+    }
+    .pull-quote {
+        font-size: 20px;
+        padding-left: 18px;
+    }
+    .article {
+        padding: 24px 16px;
+    }
+}
